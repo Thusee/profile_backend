@@ -32,7 +32,7 @@ const validateFigure = async (id) => {
     let tmp = value.filter((element) => {
       return element.id == id;
     });
-    return tmp.count > 0 ? true : false;
+    return tmp.length > 0 ? true : false;
   } else {
     return true;
   }
